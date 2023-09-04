@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Charset -->
+  <meta charset="UTF-8">
+  <!-- Viewport Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1, minimum-scale=1">
+  <title>Creative full page tab slider</title>
+  <!-- Default common css -->
+  <link rel="stylesheet" href="css/default.css">
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Include fonts(google font) -->
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700;800&family=Red+Hat+Text:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body id="body" class="bg1">
+  <!-- Background SVG(/animation) -->
+  <svg class="bg-blob" viewBox="0 0 85 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path id="svg_path" class="blob-path" fill-rule="evenodd" clip-rule="evenodd" d="M32.4059 26.2721C44.6339 9.20485 18.7713 -4.80642 0 2.9239V88.3685C5.38695 97.509 11.5034 91.0179 13.4674 86.3814C33.3711 114.531 40.4022 94.3297 47.5567 84.3943C68.4108 106.317 69.4412 72.6374 58.9198 61.0461C118.885 91.3399 60.4852 -12.9197 32.4059 26.2721Z" fill="rgba(0, 0, 0, .5)"/>
+  </svg>
+  <!-- Tab -->
+  <!-- List items -->
+  <ul class="list">
+    <li><a dd-tab="tab1" class="active" href="javascript:void(0);">Design</a></li>
+    <li><a dd-tab="tab2" href="javascript:void(0);">Inspiration</a></li>
+    <li><a dd-tab="tab3" href="javascript:void(0);">About</a></li>
+    <li><a dd-tab="tab4" href="javascript:void(0);">Snippets</a></li>
+  </ul>
+  <!-- Tab content -->
+  <div class="container">
+    <div class="tabs">
+      <!-- Tab 1 -->
+      <div class="tab active" id="tab1">
+        <div class="text-center">
+          <h4 class="title">The collection of handcrafted design portfolio!</h4>
+        </div>
+        <br />
+        <div class="grid gutter grid-4">
+          <div class="portfolio-grid">
+            <img src="images/boris-stefanik-wxJscL5ZzDA-unsplash.jpg" class="pf-img">
+            <h3 class="heading">Branding</h3>
+          </div>
+          <div class="portfolio-grid">
+            <img src="images/alexander-andrews-m5kv39fdFnQ-unsplash.jpg" class="pf-img">
+            <h3 class="heading">UX/UI</h3>
+          </div>
+          <div class="portfolio-grid">
+            <img src="images/jesus-kiteque-wn-KYaHwcis-unsplash.jpg" class="pf-img">
+            <h3 class="heading">Product Design</h3>
+          </div>
+          <div class="portfolio-grid">
+            <img src="images/jeff-sheldon-9dI3g8owHiI-unsplash.jpg" class="pf-img">
+            <h3 class="heading">Photography</h3>
+          </div>
+          <div class="portfolio-grid">
+            <img src="images/mike-meyers--haAxbjiHds-unsplash.jpg" class="pf-img">
+            <h3 class="heading">Communication</h3>
+          </div>
+          <div class="portfolio-grid">
+            <img src="images/lum3n--RBuQ2PK_L8-unsplash.jpg" class="pf-img">
+            <h3 class="heading">Event Management</h3>
+          </div>
+          <div class="portfolio-grid">
+            <img src="images/luca-bravo-9l_326FISzk-unsplash.jpg" class="pf-img">
+            <h3 class="heading">And more...</h3>
+          </div>
+          <div class="portfolio-grid">
+            <img src="images/boris-stefanik-wxJscL5ZzDA-unsplash.jpg" class="pf-img">
+            <h3 class="heading">Lorem ipsum</h3>
+          </div>
+        </div>
+        <br />
+      </div>
+      <!-- Tab 2 -->
+      <div class="tab" id="tab2">
+        <div class="text-center">
+          <h4 class="title">Collection of Inspiring Resources!</h4>
+        </div>
+        <br />
+        <div class="box">
+          <div class="box__grid">
+            <img src="http://uix.me/img/twittercard.jpg" alt="" class="box__img">
+            <div class="box__info">
+              <h3 class="title">UIX - UI &amp; UX Design - Personal Portfolio of Kadir Inan</h3>
+              <a href="https://uix.me/" target="_blank"  class="link"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+              </svg>&nbsp;uix.me</a>
+            </div>
+          </div>
+          <div class="box__grid">
+            <img src="https://images.prismic.io/nahel/b9c5aeb1-42c2-4653-955b-19f9c0103249_image-teaser.png" class="box__img">
+            <div class="box__info">
+              <h3 class="title">Nahel Moussi – Portfolio</h3>
+              <a href="https://nahelmoussi.com/" target="_blank"  class="link"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+              </svg>&nbsp;nahelmoussi.com</a>
+            </div>
+          </div>
+          <div class="box__grid">
+            <img src="https://heartbeat.ua/cover/general.03.png" class="box__img">
+            <div class="box__info">
+              <h3 class="title">Heartbeat agency — UI/UX for mobile and web apps in fintech</h3>
+              <a href="https://heartbeat.ua/" target="_blank"  class="link"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+              </svg>&nbsp;heartbeat.ua</a>
+            </div>
+          </div>
+          <div class="box__grid">
+            <img src="https://patrickdavid.com/assets/img/cover-share.jpg" class="box__img">
+            <div class="box__info">
+              <h3 class="title">Patrick David Creative Agency | Websites, App, Marketing</h3>
+              <a href="https://patrickdavid.com/" target="_blank"  class="link"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+              </svg>&nbsp;patrickdavid.com</a>
+            </div>
+          </div>
+          <div class="box__grid">
+            <img src="https://www.reed.be/static/img/share-assets/og-share-img.jpg" class="box__img">
+            <div class="box__info">
+              <h3 class="title">Reed, une agence pour votre stratégie digitale</h3>
+              <a href="https://reed.be/" target="_blank"  class="link"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+              </svg>&nbsp;reed.be</a>
+            </div>
+          </div>
+          <div class="box__grid">
+            <img src="https://jam3-media.imgix.net/uploads/2019/07/Jam3.png" class="box__img">
+            <div class="box__info">
+              <h3 class="title">Jam3 - Jam3 is a design and experience agency that partners with forward-thinking brands to solve problems in the space between people and technology.</h3>
+              <a href="https://reed.be/" target="_blank"  class="link"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+              </svg>&nbsp;reed.be</a>
+            </div>
+          </div>
+          <div class="box__grid">
+            <img src="https://medias.mutek.org/montreal/_1200x630_crop_center-center_82_none/Spectrum_1920x1021_300dpi.jpg" class="box__img">
+            <div class="box__info">
+              <h3 class="title">MUTEK Montreal - International festival of digital creativity and electronic music</h3>
+              <a href="https://montreal.mutek.org/" target="_blank"  class="link"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+              </svg>&nbsp;montreal.mutek.org</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tab 3 -->
+      <div class="tab" id="tab3">
+        <div class="text-center">
+          <h4 class="title">Design Drastic A Learning Blog on the Web!</h4>
+        </div>
+        <p class="desc">Dd(Design Drastic) is a web blog that publishes articles, tutorials, demos and free assets about web development. In particular, we write about HTML5 and CSS3 snippets, free templates and Photoshop mockups. At Dd, you will find latest resources on web designing and web development related topics. The aim of creating this blog is to share knowledge and provide learning materials to the aspiring web developers.</p>
+        <br />
+        <p class="desc">Dd(Design Drastic) is a web blog that publishes articles, tutorials, demos and free assets about web development. In particular, we write about HTML5 and CSS3 snippets, free templates and Photoshop mockups. At Dd, you will find latest resources on web designing and web development related topics. The aim of creating this blog is to share knowledge and provide learning materials to the aspiring web developers.</p>
+        <br />
+        <p class="desc">Dd(Design Drastic) is a web blog that publishes articles, tutorials, demos and free assets about web development. In particular, we write about HTML5 and CSS3 snippets, free templates and Photoshop mockups. At Dd, you will find latest resources on web designing and web development related topics. The aim of creating this blog is to share knowledge and provide learning materials to the aspiring web developers.</p>
+        <br />
+        <p class="desc">Dd(Design Drastic) is a web blog that publishes articles, tutorials, demos and free assets about web development. In particular, we write about HTML5 and CSS3 snippets, free templates and Photoshop mockups. At Dd, you will find latest resources on web designing and web development related topics. The aim of creating this blog is to share knowledge and provide learning materials to the aspiring web developers.</p>
+        <br />
+        <p class="desc">Dd(Design Drastic) is a web blog that publishes articles, tutorials, demos and free assets about web development. In particular, we write about HTML5 and CSS3 snippets, free templates and Photoshop mockups. At Dd, you will find latest resources on web designing and web development related topics. The aim of creating this blog is to share knowledge and provide learning materials to the aspiring web developers.</p>
+      </div>
+      <!-- Tab 4 -->
+      <div class="tab" id="tab4">
+        <div class="text-center">
+          <h4 class="title">Design Drastic Snippets!</h4>
+        </div>
+        <br />
+        <div class="box">
+          <div class="box__grid">
+            <img src="https://designdrastic.com/uploads/posts/thumbnail/1602162792-thumb-text-stroke-and-animated-background-c.png" alt="" class="box__img">
+            <div class="box__info">
+              <h3 class="title">Text Stroke and Animated Background Effects</h3>
+              <a href="https://designdrastic.com/snippet/text-stroke-and-animated-background-effects" target="_blank"  class="link"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+              </svg>&nbsp;Open Link</a>
+            </div>
+          </div>
+          <div class="box__grid">
+            <img src="https://designdrastic.com/uploads/posts/thumbnail/1583328506-thumbnai_Creative_Link_Effects_CSS.png" alt="" class="box__img">
+            <div class="box__info">
+              <h3 class="title">Creative Link Effects CSS</h3>
+              <a href="https://designdrastic.com/snippet/creative-link-effects-css" target="_blank"  class="link"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+              </svg>&nbsp;Open Link</a>
+            </div>
+          </div>
+          <div class="box__grid">
+            <img src="https://designdrastic.com/uploads/posts/thumbnail/1595831216-cursor-animation-effects-thumb.jpg" alt="" class="box__img">
+            <div class="box__info">
+              <h3 class="title">Cursor Effects and Animation with CSS and JS</h3>
+              <a href="https://designdrastic.com/snippet/cursor-effects-and-animation-with-css-and-js" target="_blank"  class="link"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+              </svg>&nbsp;Open Link</a>
+            </div>
+          </div>
+          <div class="box__grid">
+            <img src="https://designdrastic.com/uploads/posts/thumbnail/1576845297-thumbnail-text-hover-animation.png" alt="" class="box__img">
+            <div class="box__info">
+              <h3 class="title">Text Hover Animation CSS</h3>
+              <a href="https://designdrastic.com/snippet/text-hover-animation-css" target="_blank"  class="link"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+              </svg>&nbsp;Open Link</a>
+            </div>
+          </div>
+          <div class="box__grid">
+            <img src="https://designdrastic.com/uploads/posts/thumbnail/1585071263-thumbnai-card-hover-effect.png" alt="" class="box__img">
+            <div class="box__info">
+              <h3 class="title"> Card hover effects - reveal details on card hover</h3>
+              <a href="https://designdrastic.com/snippet/card-hover-effects-reveal-details-on-card-hover" target="_blank"  class="link"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+              </svg>&nbsp;Open Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Include Anime js for SVG animation -->
+  <!-- CDN -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script> -->
+  <!-- Anime js file -->
+  <script src="js/anime.min.js"></script>
+  <script>
+    // Body Background class list(change dynamically on click)
+    const bg = ['bg1', 'bg2', 'bg3', 'bg4'];
+    // SVG path array list
+    // It is required to have the same number of attributes/values of every SVG path.
+    const paths = [
+      'M32.4059 26.2721C44.6339 9.20485 18.7713 -4.80642 0 2.9239V88.3685C5.38695 97.509 11.5034 91.0179 13.4674 86.3814C33.3711 114.531 40.4022 94.3297 47.5567 84.3943C68.4108 106.317 69.4412 72.6374 58.9198 61.0461C118.885 91.3399 60.4852 -12.9197 32.4059 26.2721Z',
+      'M38.7343 28.916C53.3502 12.8808 14.7319 -19.9663 0 16.6749V87.2576C6.43894 95.8455 16.0974 97.0056 16.0974 85.3907C28.4478 112.978 56.8438 95.1265 56.8438 83.5237C87.3753 97.9451 98.0432 53.3173 63.4995 53.3173C103.817 44.577 72.297 -7.90594 38.7343 28.916Z',
+      'M33.0166 24.1626C63.5462 17.9935 23.7262 5.48372 0 0V88.425C5.48847 97.8844 11.7202 91.1668 13.7212 86.3686C30.8726 112.69 41.1635 94.5942 48.4529 84.3122C84.8997 104.362 70.7498 72.1452 60.0301 60.1495C117.916 55.5227 60.7448 33.9305 33.0166 24.1626Z',
+      'M32.1191 29.3137C44.2388 13.0652 53.899 -19.5838 0 16.9098V88.4311C5.33927 97.1331 32.1191 107.078 13.3482 86.5393C75.0441 116.638 52.6548 89.6794 52.6548 77.9223C108.213 77.9223 81.299 54.0394 52.6548 54.0394C80.0194 16.9098 59.9498 -7.99797 32.1191 29.3137Z'];
+    // Get list item(ul)
+    const list = document.querySelector('.list');
+    // Position / Reposition list items
+    function positionList() {
+      let active_item = document.querySelector('.list .active');
+      let list_width = list.clientWidth;
+      let active_item_width = active_item.offsetWidth;
+      // Transform list(x direction)
+      let tx = ((list_width / 2) - active_item.offsetLeft - (active_item_width / 2));
+      list.style.transform = 'translateX('+ (tx)+'px)';
+    }
+    // event: List item click
+    let list_item = document.querySelectorAll('.list li a');
+    list_item.forEach((item, key) => {
+      item.addEventListener('click', function(){
+        // Activate list item
+        activeListItem(item, key);
+        // Toggle tab content
+        toggleTabs(item, key);
+      });
+    });
+    // Activate list item
+    function activeListItem(e, key) {
+      body.className = bg[key];
+      // Call anime lib function timline to animate the SVG
+      let timeline = anime({
+        duration: 1000,
+        targets: '.bg-blob .blob-path',
+        d: [{
+          value: paths[key]
+        }],
+        easing: 'easeOutQuad',
+      });
+      
+      list_item.forEach(item => {
+        item.classList.remove('active');
+      });
+      e.classList.add('active');
+      // Reposition list
+      positionList();
+    }
+    // Activate tab(content)
+    function toggleTabs(item, key) {
+      let tab = item.attributes['dd-tab'].value;
+      let tabs = document.querySelectorAll('.tabs .tab');
+      tabs.forEach(tab => {
+        tab.classList.remove('active');
+      });
+      let active_tab = document.getElementById(tab);
+      active_tab.classList.add('active', 'animate');
+      setTimeout(() => {
+        active_tab.classList.remove('animate');
+      }, 250);
+    }
+    // Initialize
+    function init() {
+      positionList();
+    }
+    // call the function on window resize
+    window.onresize = positionList;
+    // call the function on load
+    window.onload = init;
+  </script>
+</body>
+</html>
